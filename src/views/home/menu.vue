@@ -28,9 +28,9 @@ export default class YMenu extends Vue {
 
   initPage ():void {
     this.menuList = [
-      new MenuItem('11111', 'iconzhongguo', '/three/rect'),
-      new MenuItem('11111', 'iconzhongguo', '/b'),
-      new MenuItem('11111', 'iconzhongguo', '/b')
+      new MenuItem('threeJs基础', 'iconrect', '/three/rect'),
+      new MenuItem('菜单2', 'iconzhongguo', '/b'),
+      new MenuItem('菜单3', 'iconzhongguo', '/b')
     ]
   }
 
